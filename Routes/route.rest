@@ -1,0 +1,28 @@
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+    "name": "Leather Boot",
+    "description": "Black 10 inch leather boot",
+    "price": 340,
+    "quantity": 15,
+    "category": "Mens"
+}
+###
+
+GET http://localhost:3000/api
+###
+
+GET http://localhost:3000/api?name=Jacket
+###
+
+DELETE http://localhost:3000/api
+###
+
+DELETE http://localhost:3000/api/652f31f4db9aafb0550a389d
+###
+
+PATCH http://localhost:3000/api/652f1546e14f74606765587e
+Content-Type: application/json
+
+{"name": "Dress Shoe"}
